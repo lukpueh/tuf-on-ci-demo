@@ -1,3 +1,3 @@
-# playground-template
+# TUF-on-CI demo
 
-This is a template for TUF repositories running [repository-playground](https://github.com/jku/repository-playground/blob/main/playground/).
+This is demo running [repository-playground](https://github.com/jku/repository-playground/blob/main/playground/).
