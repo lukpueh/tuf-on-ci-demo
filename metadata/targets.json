@@ -2,19 +2,26 @@
  "signatures": [
   {
    "keyid": "a7a79b96e46a82e4d36695ce014c0a5ec1d3a1e88b4718febefdc80b4f708ae6",
-   "sig": "3045022100e915e5dab2dfc9d2453dad1540bf2365f308ae74f5b15c20ee66092a3fd484b402207b1e7d91d7eb6ef109ab3095936f871ae1619d43849dbb3617c59c30773ae346"
+   "sig": "30440220467a7be4be859e6518db2ed175d25b4af4a32b24f9579040838c1f66693e768b02204bd40c635ba4c81fee1a108f9344337cb6a39d284bf8f732f178551cc7da5499"
   },
   {
    "keyid": "762cb22caca65de5e9b7b6baecb84ca989d337280ce6914b6440aea95769ad93",
-   "sig": "3045022073d28286fa66fcdf6ba2821d30d5dba44120d3f03149163f807da259aeb04691022100fc5dd11c8d2d92e2556b8d79fb2036b37cdf794000d4343f67f12fa933376797"
+   "sig": "30440220564b3296fe42d497147325f2eb0e77b023a12e2fd5638932ae7aba4cfb7c79ca022056170ccaefd3f77c9794511f218b782fe5809f2bb52ed369813b1b0308180660"
   }
  ],
  "signed": {
   "_type": "targets",
-  "expires": "2024-06-27T15:17:58Z",
+  "expires": "2024-06-27T15:29:27Z",
   "spec_version": "1.0.31",
-  "targets": {},
-  "version": 1,
+  "targets": {
+   "file.txt": {
+    "hashes": {
+     "sha256": "2fb5a323ae7b06e1a7c2908f24ae0730c85d8dfd8b482060580af73523da4bbb"
+    },
+    "length": 17
+   }
+  },
+  "version": 2,
   "x-playground-expiry-period": 365,
   "x-playground-signing-period": 60
  }
